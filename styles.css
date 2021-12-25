@@ -1,7 +1,16 @@
 body {
-  background-color: darkblue;
+  background-color: rgb(88, 86, 88);
 }
 h1,
 h2 {
-  color: #000;
+  color: black;
+  font-family: "Ubuntu", sans-serif;
+  margin-left: 0;
+}
+h1 {
+  font-weight: bold;
+}
+
+h2 {
+  font-style: italic;
 }
