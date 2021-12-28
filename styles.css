@@ -12,12 +12,12 @@ body {
 }
 h1,
 h2 {
-  color: black;
+ 
   font-family: "Ubuntu", sans-serif;
 }
 
 h1 {
-quaternary-color);
+color: var(--quaternary-color);
   font-weight: bold;
 }
 
@@ -27,8 +27,7 @@ h2 {
 }
 
 h3 {
-  color: var(--quaternary-color)
-;
+  color: var(--quaternary-color);
 }
 h4 {
   color: var(--tertiary-color);
@@ -52,11 +51,11 @@ img {
 .contact-me-hero {
   background-color: var(--primary-color);
   border-radius: 50px;
+  box-shadow: var(--box-shadow);
   color: var(--tertiary-color);
   margin-top: 150px;
   margin-bottom: 25px;
   font-weight: 600;
-
   padding: 20px 30px 20px 30px;
   transition: all 200ms ease-in-out;
 }
@@ -74,6 +73,7 @@ img {
 .read-more-links {
   background-color: var(--primary-color);
   border-radius: 5px;
+  box-shadow: var(--box-shadow);
   color: var(--quaternary-color);
 
   padding: 10px 10px;
