@@ -1,9 +1,9 @@
 :root {
   --primary-color: #1a2c5b;
   --secondary-color: #3e4e88;
- --tertiary-color: #b8dff0;
---quaternary-color: #7971ea;
-  
+  --tertiary-color: #b8dff0;
+  --quaternary-color: #7971ea;
+
   --box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -12,12 +12,11 @@ body {
 }
 h1,
 h2 {
- 
   font-family: "Ubuntu", sans-serif;
 }
 
 h1 {
-color: var(--quaternary-color);
+  color: var(--quaternary-color);
   font-weight: bold;
 }
 
@@ -36,6 +35,9 @@ h4 {
 img {
   border-radius: 3px;
   box-shadow: var(--box-shadow);
+}
+p {
+  text-indent: 15px;
 }
 .navbar-background-color {
   background-color: var(--secondary-color);
@@ -70,6 +72,9 @@ img {
   color: var(--tertiary-color);
   padding: 30px 30px;
 }
+.dialogue {
+  text-indent: 40px;
+}
 .read-more-links {
   background-color: var(--primary-color);
   border-radius: 5px;
@@ -81,6 +86,6 @@ img {
   transition: all 200ms ease-in-out;
 }
 .read-more-links:hover {
-quaternary-color);
+  background-color: var(--quaternary-color);
   color: var(--tertiary-color);
 }
