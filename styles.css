@@ -45,6 +45,9 @@ p {
 .navbar-text {
   color: var(--tertiary-color);
 }
+.navbar-custom-icon {
+  color: var(--tertiary-color);
+}
 .hero {
   background-color: var(--secondary-color);
   padding: 100px 0px 0px 30px;
@@ -88,4 +91,16 @@ p {
 .read-more-links:hover {
   background-color: var(--quaternary-color);
   color: var(--tertiary-color);
+}
+
+@media (max-width: 768px) {
+  img {
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .story {
+    margin: 30px 5px 0px 5px;
+  }
 }
