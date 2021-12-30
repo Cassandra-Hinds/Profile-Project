@@ -45,9 +45,14 @@ p {
 .navbar-text {
   color: var(--tertiary-color);
 }
+.navbar-text:hover {
+  color: var(--quaternary-color);
+  transition: all 200ms ease-in-out;
+}
 .navbar-custom-icon {
   color: var(--tertiary-color);
 }
+
 .hero {
   background-color: var(--secondary-color);
   padding: 100px 0px 0px 30px;
