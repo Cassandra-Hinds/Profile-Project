@@ -103,7 +103,17 @@ p {
   background-color: var(--quaternary-color);
   color: var(--tertiary-color);
 }
+.contact-title {
+  margin-top: 100px;
+}
 
+.contact-details {
+  margin-top: 200px;
+  margin-bottom: 50px;
+}
+.info {
+  text-align: center;
+}
 @media (max-width: 768px) {
   img {
     width: 250px;
