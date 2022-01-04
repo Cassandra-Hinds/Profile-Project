@@ -111,9 +111,7 @@ p {
   margin-top: 200px;
   margin-bottom: 50px;
 }
-.info {
-  text-align: center;
-}
+
 @media (max-width: 768px) {
   img {
     width: 250px;
