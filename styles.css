@@ -103,13 +103,35 @@ p {
   background-color: var(--quaternary-color);
   color: var(--tertiary-color);
 }
-.contact-title {
+.title-margin {
   margin-top: 100px;
 }
-
+.contact-me-btn {
+  background-color: var(--primary-color);
+  border-radius: 50px;
+  box-shadow: var(--box-shadow);
+  color: var(--tertiary-color);
+  margin-top: 40px;
+  margin-bottom: 25px;
+  font-weight: 600;
+  font-family: "Ubuntu", sans-serif;
+  padding: 20px 30px 20px 30px;
+  transition: all 200ms ease-in-out;
+}
+.contact-me-btn:hover {
+  background-color: var(--tertiary-color);
+  color: var(--primary-color);
+}
 .contact-details {
   margin-top: 200px;
   margin-bottom: 50px;
+}
+.contact-details-link {
+  color: var(--quaternary-color);
+  transition: all 200ms ease-in-out;
+}
+.contact-details-link:hover {
+  color: var(--tertiary-color);
 }
 
 @media (max-width: 768px) {
