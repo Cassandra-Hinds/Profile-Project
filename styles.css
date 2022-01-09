@@ -126,6 +126,9 @@ p {
   margin-top: 200px;
   margin-bottom: 50px;
 }
+.contact-details-background {
+  background-color: var(--secondary-color);
+}
 .contact-details-link {
   color: var(--quaternary-color);
   transition: all 200ms ease-in-out;
