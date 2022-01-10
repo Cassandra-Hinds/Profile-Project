@@ -105,6 +105,7 @@ p {
 }
 .title-margin {
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 .contact-me-btn {
   background-color: var(--primary-color);
@@ -128,6 +129,7 @@ p {
 }
 .contact-details-background {
   background-color: var(--secondary-color);
+  padding: 10px 40px 10px 40px;
 }
 .contact-details-link {
   color: var(--quaternary-color);
@@ -136,7 +138,9 @@ p {
 .contact-details-link:hover {
   color: var(--tertiary-color);
 }
-
+.read-link {
+  margin-left: 80px;
+}
 @media (max-width: 768px) {
   img {
     width: 250px;
