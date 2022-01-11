@@ -129,7 +129,7 @@ p {
 }
 .contact-details-background {
   background-color: var(--secondary-color);
-  padding: 10px 40px 10px 40px;
+  padding: 10px 10px 10px 10px;
 }
 .contact-details-link {
   color: var(--quaternary-color);
